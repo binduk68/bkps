@@ -8,7 +8,7 @@ var fs = require('fs');  // for file transfer
 var PeerServer = require('peer').PeerServer;
 
 var server = PeerServer({
-     port : process.env.PORT || 3000;
+     port : process.env.PORT || 3001,
     path: '/peerjs'
     
 });
